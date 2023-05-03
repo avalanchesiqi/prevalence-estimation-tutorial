@@ -6,7 +6,7 @@ layout: default
 
     <h1>{{ site.course_name }} <span style="font-size: 20px;color: #0006;">/ {{ site.course_semester }} </span></h1>
 
-    {% include announcements.html %}
+    <!-- {% include announcements.html %} -->
     <br />
 
     <h2>Course Description</h2>
@@ -15,10 +15,11 @@ layout: default
     {{ content }}
 
     {% if site.data.previous_offering and site.data.previous_offering.offerings and site.data.previous_offering.offerings.size > 0 %}
-    <h2>Previous Offerings</h2>
+    <h2>Course Materials</h2>
     <ul class="previous-offerings">
     {% for offer in site.data.previous_offering.offerings %}
     <li><a href="{{ offer.url }}">{{offer.title}}</a></li>
+    <br />
     {% endfor %}
     </ul>
     {% endif %}
@@ -47,7 +48,7 @@ layout: default
             </div>
         </div>
 
-        <div style="width:65%; float: left">
+        <!-- <div style="width:65%; float: left">
             <div class="profile-pic-gallary ">
                 <h2>Teaching Assistants</h2>
                 {% for ta in site.data.people.teaching_assistants %}
@@ -61,6 +62,6 @@ layout: default
                 </div>
                 {% endfor %}
             </div>
-        </div>
+        </div> -->
     </div>
 </div>

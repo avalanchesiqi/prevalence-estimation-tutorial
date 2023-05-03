@@ -1,7 +1,9 @@
 offerings:
-  - title: Fall 1997
-    url: https://previous_course_website.url/
+  - title: Tutorial slides
+    # url: https://previous_course_website.url/
   
-  - title: Fall 1996
-    url: https://previous_course_website.url/
+  - title: Hands-on Jupyter notebook
+    # url: https://previous_course_website.url/
 
+  - title: Arxiv preprint
+    # url: https://previous_course_website.url/
