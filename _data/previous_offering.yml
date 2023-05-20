@@ -2,8 +2,11 @@ offerings:
   - title: Tutorial slides
     # url: https://previous_course_website.url/
   
-  - title: Hands-on Jupyter notebook
+  - title: Prevalence estimation Jupyter notebook template
     # url: https://previous_course_website.url/
 
-  - title: Arxiv preprint
+  - title: Arxiv preprint (forthcoming)
     # url: https://previous_course_website.url/
+
+  - title: Readling list
+    url: https://quirky-bag-1a4.notion.site/ed68d0b0d08942da9272556548adb82f?v=eeab4969721049419939a84d9867172c
