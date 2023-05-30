@@ -1,12 +1,12 @@
-offerings:
+materials:
   - title: Tutorial slides
     # url: https://previous_course_website.url/
   
   - title: Tutorial Jupyter notebooks
-    # url: https://previous_course_website.url/
+    url: https://github.com/avalanchesiqi/prevalence-estimation-tutorial/tree/master/code
 
   - title: Arxiv preprint (forthcoming)
     # url: https://previous_course_website.url/
 
   - title: Readling list
-    url: https://quirky-bag-1a4.notion.site/ed68d0b0d08942da9272556548adb82f?v=eeab4969721049419939a84d9867172c
+    url: https://avalanchesiqi.notion.site/ed68d0b0d08942da9272556548adb82f?v=eeab4969721049419939a84d9867172c
