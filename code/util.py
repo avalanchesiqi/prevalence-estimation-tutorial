@@ -112,6 +112,9 @@ class DataHandler():
     def get_labeled_sample(self):
         return self.observed_df[self.observed_df['GT'] != '']
     
+    def reset_oracle(self):
+        self.observed_df['GT'] = ''
+    
     def count_gt(self):
         return (self.observed_df['GT'].values != '').sum() 
 
