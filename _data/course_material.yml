@@ -5,8 +5,14 @@ materials:
   - title: Tutorial Jupyter notebooks
     url: https://github.com/avalanchesiqi/prevalence-estimation-tutorial/tree/master/code
 
+  - title: Tutorial spreadsheet 1 (copy your own version)
+    url: https://docs.google.com/spreadsheets/d/10oEQR-_6px9sRF3cRiIPChiBcrWPVPy12TN7oHCA4qU/edit?usp=sharing
+
+  - title: Tutorial spreadsheet 2 (a shared doc between participants)
+    url: https://docs.google.com/spreadsheets/d/1LGc-JNuJ00l2B00-CQWGatNROsQ-v0KBUZxCWXfkkIc/edit?usp=sharing
+
   - title: Arxiv preprint (forthcoming)
     # url: https://previous_course_website.url/
 
-  - title: Readling list
+  - title: References and reading list
     url: https://avalanchesiqi.notion.site/ed68d0b0d08942da9272556548adb82f?v=eeab4969721049419939a84d9867172c
