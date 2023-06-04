@@ -4,3 +4,6 @@ _site
 .DS_Store
 code/.ipynb_checkpoints/*
 code/__pycache__/*
+*.svg
+*.png
+data
