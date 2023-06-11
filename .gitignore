@@ -7,3 +7,6 @@ code/__pycache__/*
 *.svg
 *.png
 data
+*.code-workspace
+Gemfile
+Gemfile.lock
