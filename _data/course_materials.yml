@@ -1,6 +1,6 @@
 materials:
   - title: Tutorial slides
-    # url: https://previous_course_website.url/
+    url: https://docs.google.com/presentation/d/1b-uO7TvJ8u1iUMzx-uDPQhQ7gu2rI1KcCcSinMDDZ_A/edit?usp=sharing
   
   - title: Tutorial Jupyter notebooks
     url: https://github.com/avalanchesiqi/prevalence-estimation-tutorial-code
