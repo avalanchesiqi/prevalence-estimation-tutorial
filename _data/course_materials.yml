@@ -1,9 +1,12 @@
 materials:
+  - title: Tutorial proposal
+    url: https://drive.google.com/file/d/1DAoxwpoDrcos-5hqFdf4BJJOr7LWptXG/view?usp=sharing
+
   - title: Tutorial slides
     url: https://docs.google.com/presentation/d/1b-uO7TvJ8u1iUMzx-uDPQhQ7gu2rI1KcCcSinMDDZ_A/edit?usp=sharing
   
-  - title: Tutorial Jupyter notebooks
-    url: https://github.com/avalanchesiqi/prevalence-estimation-tutorial-code
+  - title: pyquantifier package and tutorial jupyter notebook
+    url: https://github.com/avalanchesiqi/pyquantifier
 
   - title: Spreadsheet 1 (make your own copy)
     url: https://docs.google.com/spreadsheets/d/10oEQR-_6px9sRF3cRiIPChiBcrWPVPy12TN7oHCA4qU/edit?usp=sharing
