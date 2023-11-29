@@ -4,8 +4,11 @@ materials:
 
   - title: Tutorial slides
     url: https://docs.google.com/presentation/d/1b-uO7TvJ8u1iUMzx-uDPQhQ7gu2rI1KcCcSinMDDZ_A/edit?usp=sharing
-  
-  - title: pyquantifier package and tutorial jupyter notebook
+
+  - title: Tutorial jupyter notebooks
+    url: https://github.com/avalanchesiqi/pyquantifier/blob/main/examples/Sec0-Data-Generating.ipynb
+
+  - title: pyquantifier package
     url: https://github.com/avalanchesiqi/pyquantifier
 
   - title: Spreadsheet 1 (make your own copy)
