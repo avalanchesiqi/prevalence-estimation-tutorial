@@ -1,0 +1,6 @@
+papers:
+  - title: "Calibrate-Extrapolate: Rethinking Prevalence Estimation with Black Box Classifiers"
+    authors: "Siqi Wu, Paul Resnick"
+    year: 2024
+    venue: arXiv:2401.09329
+    url: https://arxiv.org/abs/2401.09329

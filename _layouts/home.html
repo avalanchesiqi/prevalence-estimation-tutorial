@@ -34,6 +34,16 @@ layout: default
         </ul>
     {% endif %}
 
+    {% if site.data.papers and site.data.papers.papers and site.data.papers.papers.size > 0 %}
+        <h2>Paper</h2>
+        <ul class="homepage-bullets">
+            {% for paper in site.data.papers.papers %}
+                <li>{{paper.authors}} ({{paper.year}}). {{paper.title}}. <a href="{{ paper.url }}">{{paper.venue}}</a></li>
+                <br />
+            {% endfor %}
+        </ul>
+    {% endif %}
+
     <br>
 
     <div class="profile-pic-gallary ">
