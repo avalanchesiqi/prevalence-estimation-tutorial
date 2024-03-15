@@ -3,8 +3,13 @@ presentations:
     year: 2024
     url: https://www.icwsm.org/2024/index.html/
     proposal_url: https://drive.google.com/file/d/1fbGq91MCC8XhXfLGzelK8ufIkm8eutYD/view
+    instructors:
+      - Siqi Wu
   
   - venue: AAAI International Conference on Weblogs and Social Media (ICWSM)
     year: 2023
     url: https://icwsm.org/2023/index.html/#tutorials-schedule
     proposal_url: https://drive.google.com/file/d/1DAoxwpoDrcos-5hqFdf4BJJOr7LWptXG/view
+    instructors:
+      - Siqi Wu
+      - Paul Resnick

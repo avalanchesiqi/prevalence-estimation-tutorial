@@ -18,8 +18,12 @@ layout: default
     <h2>Presentations</h2>
     <ul class="homepage-bullets">
         {% for presentation in site.data.presentations.presentations %}
-            <li>{{presentation.venue}}, <a href="{{ presentation.url }}", target="_blank">{{presentation.year}}</a> | <a href="{{ presentation.proposal_url }}", target="_blank">Tutorial proposal</a></li>
-            <br />
+            <li><a href="{{ presentation.url }}", target="_blank">{{presentation.venue}}, {{presentation.year}}</a></li>
+            <ul style="margin-bottom: 0;">
+                <li>{% if presentation.instructors.size == 1 %}Instructor: {% else %}Instructors: {% endif %}{{presentation.instructors | join: ", "}}</li>
+                <br />
+                <li><a href="{{ presentation.proposal_url }}", target="_blank">Tutorial proposal</a></li>
+            </ul>
         {% endfor %}
     </ul>
     {% endif %}
@@ -52,10 +56,11 @@ layout: default
             <div class="image--cover-container">
                 <img src="{{instructor.profile_pic | prepend: site.baseurl }}" class="image--cover">
                 {% if instructor.webpage %}
-                    <p><a href="{{ instructor.webpage }}", target="_blank">{{instructor.name}}</a></p>
+                    <a href="{{ instructor.webpage }}", target="_blank">{{instructor.name}}</a>            
                 {% else %}
-                    <p>{{instructor.name}}</p>
+                    {{instructor.name}}
                 {% endif %}
+                ({{instructor.year}})
             </div>
         {% endfor %}
     </div>

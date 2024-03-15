@@ -1,7 +1,10 @@
 instructors:
   - name: Siqi Wu
     profile_pic: /_images/pp/siqiwu.png
+    year: 2023, 2024
     webpage: https://avalanchesiqi.github.io
+
   - name: Paul Resnick
     profile_pic: /_images/pp/presnick.png
+    year: 2023
     webpage: https://www.si.umich.edu/people/paul-resnick
