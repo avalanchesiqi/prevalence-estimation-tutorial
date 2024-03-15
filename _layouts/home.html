@@ -19,7 +19,7 @@ layout: default
     <ul class="homepage-bullets">
         {% for presentation in site.data.presentations.presentations %}
             <li><a href="{{ presentation.url }}", target="_blank">{{presentation.venue}}, {{presentation.year}}</a></li>
-            <ul style="margin-bottom: 0;">
+            <ul class="inner-bullets">
                 <li>{% if presentation.instructors.size == 1 %}Instructor: {% else %}Instructors: {% endif %}{{presentation.instructors | join: ", "}}</li>
                 <br />
                 <li><a href="{{ presentation.proposal_url }}", target="_blank">Tutorial proposal</a></li>

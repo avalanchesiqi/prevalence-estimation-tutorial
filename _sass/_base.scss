@@ -472,7 +472,6 @@ a.tosu {
 
   .homepage-bullets{
     list-style-type: none;
-    
 
     li {
         display: inline-block;
@@ -481,6 +480,22 @@ a.tosu {
 
     li::before {
         content: "● ";
+        color:black;
+        padding-right: 5px;
+    } 
+  }
+
+  .inner-bullets{
+    margin-bottom: 5px;
+    list-style-type: none;
+    
+    li {
+        display: inline-block;
+        margin-right: 10px; 
+    }
+
+    li::before {
+        content: "◇ ";
         color:black;
         padding-right: 5px;
     } 
