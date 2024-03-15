@@ -1,15 +1,12 @@
 materials:
-  - title: ICWSM 2023 tutorial proposal
-    url: https://drive.google.com/file/d/1DAoxwpoDrcos-5hqFdf4BJJOr7LWptXG/view?usp=sharing
-
-  - title: Slides
+  - title: Tutorial slides
     url: https://docs.google.com/presentation/d/1b-uO7TvJ8u1iUMzx-uDPQhQ7gu2rI1KcCcSinMDDZ_A/edit?usp=sharing
+
+  - title: pyquantifier Python package
+    url: https://github.com/avalanchesiqi/pyquantifier
 
   - title: In-class coding exercises
     url: https://github.com/avalanchesiqi/pyquantifier/blob/main/examples/Sec0-Data-Generating.ipynb
-
-  - title: pyquantifier package
-    url: https://github.com/avalanchesiqi/pyquantifier
 
   - title: Spreadsheet 1 (make your own copy)
     url: https://docs.google.com/spreadsheets/d/10oEQR-_6px9sRF3cRiIPChiBcrWPVPy12TN7oHCA4qU/edit?usp=sharing

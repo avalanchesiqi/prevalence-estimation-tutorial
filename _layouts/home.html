@@ -6,29 +6,29 @@ layout: default
 
     <!-- <h1>{{ site.course_name }} <span style="font-size: 20px;color: #0006;">/ {{ site.course_semester }} </span></h1> -->
 
-    <!-- {% include announcements.html %}
-    <br /> -->
+    {% include announcements.html %}
+    <br />
 
     <h2>Course Description</h2>
     <p>{{ site.course_description }}</p>
     
     {{ content }}
 
+    {% if site.data.presentations and site.data.presentations.presentations and site.data.presentations.presentations.size > 0 %}
+    <h2>Presentations</h2>
+    <ul class="homepage-bullets">
+        {% for presentation in site.data.presentations.presentations %}
+            <li>{{presentation.venue}}, <a href="{{ presentation.url }}", target="_blank">{{presentation.year}}</a> | <a href="{{ presentation.proposal_url }}", target="_blank">Tutorial proposal</a></li>
+            <br />
+        {% endfor %}
+    </ul>
+    {% endif %}
+
     {% if site.data.course_materials and site.data.course_materials.materials and site.data.course_materials.materials.size > 0 %}
-        <h2>Course Materials</h2>
+        <h2>Course Materials (ICWSM 2023 version)</h2>
         <ul class="homepage-bullets">
             {% for material in site.data.course_materials.materials %}
                 <li><a href="{{ material.url }}">{{material.title}}</a></li>
-                <br />
-            {% endfor %}
-        </ul>
-    {% endif %}
-
-    {% if site.data.previous_presentations and site.data.previous_presentations.presentations and site.data.previous_presentations.presentations.size > 0 %}
-        <h2>Previous Presentations</h2>
-        <ul class="homepage-bullets">
-            {% for presentation in site.data.previous_presentations.presentations %}
-                <li>{{presentation.title}}</li>
                 <br />
             {% endfor %}
         </ul>
@@ -38,7 +38,7 @@ layout: default
         <h2>Paper</h2>
         <ul class="homepage-bullets">
             {% for paper in site.data.papers.papers %}
-                <li>{{paper.authors}} ({{paper.year}}). {{paper.title}}. <a href="{{ paper.url }}">{{paper.venue}}</a></li>
+                <li>{{paper.authors}} ({{paper.year}}). {{paper.title}}. <a href="{{ paper.url }}", target="_blank">{{paper.venue}}</a></li>
                 <br />
             {% endfor %}
         </ul>
@@ -48,13 +48,13 @@ layout: default
 
     <div class="profile-pic-gallary ">
         <h2>Instructors</h2>
-        {% for ins in site.data.people.instructors %}
+        {% for instructor in site.data.instructors.instructors %}
             <div class="image--cover-container">
-                <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
-                {% if ins.webpage %}
-                    <p><a href="{{ ins.webpage }}">{{ins.name}}</a></p>
+                <img src="{{instructor.profile_pic | prepend: site.baseurl }}" class="image--cover">
+                {% if instructor.webpage %}
+                    <p><a href="{{ instructor.webpage }}", target="_blank">{{instructor.name}}</a></p>
                 {% else %}
-                    <p>{{ins.name}}</p>
+                    <p>{{instructor.name}}</p>
                 {% endif %}
             </div>
         {% endfor %}
