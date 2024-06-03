@@ -1,6 +1,6 @@
 materials:
   - title: Tutorial slides
-    url: https://docs.google.com/presentation/d/1b-uO7TvJ8u1iUMzx-uDPQhQ7gu2rI1KcCcSinMDDZ_A/edit?usp=sharing
+    url: https://docs.google.com/presentation/d/1_-hpHB2aZb8Cu5QUfRwEHWEAJX3AYnVnIEKu33RK0w0/edit?usp=sharing
 
   - title: pyquantifier Python package
     url: https://github.com/avalanchesiqi/pyquantifier
@@ -8,11 +8,11 @@ materials:
   - title: In-class coding exercises
     url: https://github.com/avalanchesiqi/pyquantifier/blob/main/examples/Sec0-Data-Generating.ipynb
 
-  - title: Spreadsheet 1 (make your own copy)
-    url: https://docs.google.com/spreadsheets/d/10oEQR-_6px9sRF3cRiIPChiBcrWPVPy12TN7oHCA4qU/edit?usp=sharing
+  # - title: Spreadsheet 1 (make your own copy)
+  #   url: https://docs.google.com/spreadsheets/d/10oEQR-_6px9sRF3cRiIPChiBcrWPVPy12TN7oHCA4qU/edit?usp=sharing
 
-  - title: Spreadsheet 2 (a shared document between participants)
-    url: https://docs.google.com/spreadsheets/d/1LGc-JNuJ00l2B00-CQWGatNROsQ-v0KBUZxCWXfkkIc/edit?usp=sharing
+  # - title: Spreadsheet 2 (a shared document between participants)
+  #   url: https://docs.google.com/spreadsheets/d/1LGc-JNuJ00l2B00-CQWGatNROsQ-v0KBUZxCWXfkkIc/edit?usp=sharing
 
-  - title: References and reading list
-    url: https://avalanchesiqi.notion.site/ed68d0b0d08942da9272556548adb82f?v=eeab4969721049419939a84d9867172c
+  # - title: References and reading list
+  #   url: https://avalanchesiqi.notion.site/ed68d0b0d08942da9272556548adb82f?v=eeab4969721049419939a84d9867172c
